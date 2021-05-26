@@ -14,7 +14,9 @@ import './assets/css/blocks/main-screen.scss';
 
 
 // JS
-import './assets/js/anchors';
+
 import './assets/js/popup';
+import './assets/js/inputs';
 import './assets/js/header';
 import './assets/js/mobile-menu';
+import './assets/js/anchors';

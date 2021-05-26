@@ -1,8 +1,7 @@
 let header = document.querySelector('.header');
 
 document.addEventListener('scroll', function () {
-	let scroll = document.querySelector('body').scrollTop;
-	console.log(scroll);
+	let scroll = document.querySelector('html').scrollTop;
 	if (scroll > 200 & !header.classList.contains('header--fixed')) {
 		headerFix();
 	} else if (scroll < 200 & header.classList.contains('header--fixed')) {
@@ -10,8 +9,6 @@ document.addEventListener('scroll', function () {
 	}
 
 });
-
-
 
 function headerFix() {
 	header.classList.add('header--fixed');

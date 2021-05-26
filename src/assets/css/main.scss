@@ -36,22 +36,22 @@ html,
 body {
 	font-size: 62.5%;
 
-	// @media screen and (max-width:$large_desktop) {
-	// 	font-size: 100vw / (1750/10);
-	// }
+	@media screen and (max-width:$large_desktop) {
+		font-size: 100vw / (1750/10);
+	}
 
 	@media screen and (max-width:$large_tablet) {
-		font-size: 100%;
+		font-size: 71.5%;
 	}
 
 	@media screen and (max-width:$large_mobile) {
-		font-size: 100vw / (375/10);
+		font-size: 100vw / (380/10);
 	}
 }
 
 body {
-	font-family: $font;
-	color: $color;
+	font-family: $primary-font;
+	color: $primary-color;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -67,10 +67,14 @@ main {
 }
 
 .center-wrap {
-	// max-width: ;
+	max-width: 1440px;
 	width: 100%;
 	margin: 0px auto;
 	padding: 0px 15px;
+
+	@media screen and (max-width: $large_desktop) {
+		max-width: calc(100% - 80px);
+	}
 
 	@media screen and (max-width:$large_tablet) {
 		max-width: $large_mobile;
@@ -87,16 +91,4 @@ h4 {
 
 .simple-title {
 	@media screen and (max-width:$large_tablet) {}
-}
-
-.desktop--hide {
-	@media screen and (min-width:1025px) {
-		display: none !important;
-	}
-}
-
-.mobile--hide {
-	@media screen and (max-width:$large_tablet) {
-		display: none !important;
-	}
 }

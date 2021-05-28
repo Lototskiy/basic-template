@@ -61,7 +61,7 @@
             position: absolute;
             width: 7.5rem;
             height: 7.5rem;
-            background-color: $secondary-color;
+            background-color: $secondary-c;
             top: 0;
             left: calc(100% - 15px);
             display: flex;
@@ -117,7 +117,7 @@
 
             &::-webkit-scrollbar-track {
                 border-radius: 100px;
-                background: $primary-color;
+                background: $primary-c;
             }
 
             &::-webkit-scrollbar-thumb {
@@ -126,7 +126,7 @@
             }
 
             &::-webkit-scrollbar-thumb:hover {
-                background: $secondary-color;
+                background: $secondary-c;
             }
         }
     }

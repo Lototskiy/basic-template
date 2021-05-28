@@ -36,7 +36,7 @@
 		z-index: 98;
 		display: flex;
 		align-items: center;
-		color: $primary-color;
+		color: $primary-c;
 
 		.header__logo {
 			img {
@@ -95,7 +95,7 @@
 				bottom: -2px;
 				width: 100%;
 				height: 1px;
-				background: $primary-color;
+				background: $primary-c;
 				transform: scaleX(0);
 				transition: transform .5s;
 			}
@@ -117,13 +117,13 @@
 		cursor: pointer;
 
 		&:hover div {
-			border-bottom-color: $secondary-color;
+			border-bottom-color: $secondary-c;
 		}
 
 		div {
 			margin-bottom: 2px;
 			width: 100%;
-			border-bottom: 2px solid $primary-color;
+			border-bottom: 2px solid $primary-c;
 			transition: border-bottom-color .5s;
 
 			&:last-child {

@@ -12,3 +12,14 @@ $danger-с:#ff0000;
 $large_desktop: 1750px;
 $large_tablet: 1024px;
 $large_mobile: 480px;
+
+.img_holder_copy {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.105px 1.997px 29px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 881px;
+    top: 1986px;
+    width: 399px;
+    height: 500px;
+    z-index: 105;
+}

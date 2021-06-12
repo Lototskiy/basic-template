@@ -21,7 +21,7 @@ module.exports = {
 		app: PATHS.src
 	},
 	output: {
-		filename: 'js/[name].js',
+		filename: 'js/[name].js?v=' + new Date().getTime(),
 		path: PATHS.dist,
 	},
 	resolve: {

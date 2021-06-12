@@ -89,7 +89,7 @@ const buildWebpackConfig = merge(baseWebpackConfig, {
 	},
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: 'assets/css/[name].css',
+			filename: 'assets/css/[name].css?v=' + new Date().getTime(),
 		}),
 		new OptimizeCssAssetsPlugin({
 			assetNameRegExp: /\.css$/g,
